@@ -22,6 +22,12 @@ This demonstrates how to use:
 - Backend:
   - [app.supabase.io](https://app.supabase.io/): hosted Postgres database with restful API for usage with Supabase.js.
 
+## How I got it to run
+This app is hardcoded to connect to the corresponding Supabase project and database. From the terminal, run: `ionic serve`. Then open the URL listed [https://localhost:8100](https://localhost:8100). That should work. 
+
+I was trying use `npm install -g serve` followed by `serve -s build`, but that didn't seem to work. Maybe it did and I was checking the wrong URL [http://localhost:3000](http://localhost:3000). 
+
+
 ## Instant deploy
 
 The Vercel deployment will guide you through creating a Supabase account and project. After installation of the Supabase integration, all relevant environment variables will be set up so that the project is usable immediately after deployment 🚀.

@@ -111,7 +111,7 @@ export function AccountPage() {
           </IonItem>
 
           <IonItem>
-            <IonLabel position="stacked">Name</IonLabel>
+            <IonLabel position="stacked">Username</IonLabel>
             <IonInput
               type="text"
               name="username"
